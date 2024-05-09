@@ -1,0 +1,17 @@
+@import './../../style.css';
+/* header.css */
+.app-header {
+  color: #fff;
+  background: var(--header-navbar-background);
+  position: absolute;
+  width: 100%;
+  position: fixed;
+  z-index: 888;
+}
+
+
+.app-header .container-fluid{
+  display: flex;
+  margin: 0 auto;
+  padding-top: 0;
+}
